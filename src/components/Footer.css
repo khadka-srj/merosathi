@@ -1,0 +1,23 @@
+.margin{
+margin-bottom: 7px;
+font-weight:600;
+}
+
+.gap{
+    margin-bottom: 20px;
+}
+
+.hfour{
+    padding: 0;
+}
+.col-sm-6 {
+    
+    max-width: 50%;
+    
+}
+@media (max-width:576px) {
+    .list-unstyled{
+        margin-left:25%;
+    }
+}
+

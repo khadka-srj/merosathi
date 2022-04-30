@@ -1,0 +1,65 @@
+.btn{
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.title:after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid grey;
+    margin-top: 4px;
+    width: 7%;
+}
+
+.strong{
+    font-weight: bolder;  
+}
+
+.white{
+    color:#fff !important;
+    font-size: medium;
+}
+.btn.btn-primary{
+font-size: 18px;
+padding: 6px 18px;
+}
+.btn.btn-light{
+    font-size: 18px;
+    padding: 6px 18px;
+    }
+    .navbar{
+        padding: 10px 0 !important;
+    }
+
+@media (max-width: 767px) {
+    .heroimage{
+        display: none;
+    }
+    .btn{
+        margin-right: 6px;
+        margin-top: 6px;
+    }
+    .titlemargin{
+        margin: 20px;
+    }
+    .heroimage{
+        width: 100%;
+
+    }
+    .btn.btn-primary{
+        font-size: 10px;
+        padding: 6px 12px;
+        }
+        .btn.btn-light{
+            font-size: 10px;
+            padding: 6px 12px;
+            }
+  }
+
+  @media (max-width: 576px) { 
+    .title{
+          font-size: large;
+      }
+      p{
+          font-size: smaller;
+      }
+   }
